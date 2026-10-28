@@ -1,0 +1,111 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body{
+    background-color: rgb(255, 105, 205);
+color: rgb(254, 254, 254);
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+p{color: rgb(249, 249, 250);
+
+}
+
+h1{ background-color: rgb(247, 185, 227);
+color: black;
+font-family: cursive;
+font-size: 3rem;   
+}
+
+a{color:rgb(244, 243, 244)}
+
+img{
+    width: 350px;
+
+}
+#contact {
+    color: pink;
+}
+#myGrid {
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+}
+
+ 
+
+#homepagina {
+  color: rgba(208, 0, 255, 0.364);
+  
+}
+
+.menu{
+  background-color: hsl(260, 94%, 75%);
+}
+.menu:hover{
+  background-color: rgb(0, 234, 255);
+}
+
+.mijndivs{
+  background-color: rgb(229, 4, 173);
+  margin: 10px; 
+  padding:10px;
+  border:3px solid white
+}
+
+#mijndivs1{ 
+  background-image: url("stripes.jpg");
+  background-size:contain;
+ 
+}
+
+
+.mijndivss{ 
+  background-color: rgb(243, 61, 152);
+  margin: 10px;
+  padding: 10px;
+  border:3px solid; skyblue;
+}
+
+.mijndivss1{ 
+  background-color: rgb(243, 61, 152);
+  margin: 10px;
+  padding: 10px;
+  border:3px solid; skyblue;
+}
+
+#myButton;:active{
+  background-color: blue;
+  color: aquamarine;
+  
+}
+
+#myButton.active{
+  background-color: blueviolet;
+}
+
+#myFace{
+  width: 300px;
+  height:500px ;
+  background-image: URL("happyharry.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
